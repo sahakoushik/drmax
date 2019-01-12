@@ -1,0 +1,932 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+@import url('https://fonts.googleapis.com/css?family=Baloo');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@font-face {
+    font-family: opensans;
+    src: url(../fonts/opensans-extrabold.ttf);
+}
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Baloo', cursive;
+    overflow-x:hidden;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.spadding{
+    padding-left:50px;
+}
+#intro{
+    /*background-image:url(../img/img1.jpg);
+    background-repeat: no-repeat;
+    background-position: 100% 15%;*/
+ 
+}
+#shobuj-page{
+    background-image:url('../img/Shobuj Part.png');
+    position: relative;
+    background-repeat: round;
+    left: -270px;
+    width: 100%;
+    height: 250px;
+    padding-top:30px;
+    font-family: opensans;
+    
+}
+.deef{
+    font-size:14px;
+}
+#shobuj-page h4{
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 45px;
+    background: #6fa738;
+    display: -webkit-inline-box;
+    display:-moz-inline-box;
+    display:-o-inline-box;
+}
+#lal-page{
+    background-image:url('../img/Red Part.png');
+    position: relative;
+    background-repeat: round;
+    left: -95px;
+    width: 65%;
+    height: 200px;
+    top: -150px;
+    font-family: opensans;
+}
+#lal-page h4{
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    padding-top:80px;
+}
+.menu-right{
+    background:url(../img/mainMenuBg.png) round;
+    float:right;
+    
+}
+.background-image{
+    position: absolute;
+    left: 40%;
+    
+}
+.wtf{
+    /*background-image: url(../img/wtf.png);
+    background-repeat: no-repeat;*/
+    /*padding-top: 26px;
+    padding-bottom: 5px;
+     background-position: 10% 10%; 
+    
+     text-align: center; 
+    width: 40%;
+    left: 30%;
+    top: -25px;
+    position: relative;
+    height: 100px;*/
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;        
+    background-image: url(../img/wtf.png);
+    background-repeat: round;
+    padding: 15px 10px 15px 35px;
+    display: block;
+}
+.m-wtf{
+    margin-top:-230px;
+}
+.wtf h5{
+    font-weight:700;
+}
+
+.obor h1{
+    color:white;
+    text-align:left;
+}
+.obor p {
+     font-size: 27px;
+    padding-top: 60px;
+    color: white;
+    font-weight: 700;
+    text-align: left;
+    letter-spacing: 1px;
+    MARGIN-RIGHT: -10%;
+}
+.lab-image{
+    position: absolute;
+    top: 13%;
+    height: 563px;
+    left: 48%;
+}
+.navbar-default{
+    background-color:transparent!important;
+    border-color:transparent!important;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #333 !important;
+    font-size: 25px !important;
+    padding-top: 20px !important;
+    font-weight:700;
+    margin-bottom: 10px;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    background-color:transparent;
+}
+.brand-image{
+    height:50px;
+}
+.circle{
+  width: calc(33.333% - 26px);
+  margin: 20%;
+  padding:50px;
+  float: left;
+  border: 5px SOLID WHITE;
+  border-radius: 100%;
+  position: relative;
+  margin-top: 90%;
+  margin-left: 25%;
+}
+.circle:after {
+  content: '';
+  display: block;
+  height: 0;
+  padding-bottom: 100%;
+}
+.circle > span {
+  text-align: center;
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
+  font-size:28px;
+  font-weight:700;
+  color:white;
+}
+.modify-circle{
+    line-height:1;
+}
+.port{
+    font-size:16px;
+}
+.f-45{
+    color:white; 
+    font-size:45px;
+    text-transform:uppercase;
+}
+.f-30{
+    font-size:30px;
+}
+.f-20{
+    font-size:20px;
+}
+.lombatiye{
+    background-image: url(../img/lombatiya.png);
+    /* background-position: 100% 100%; */
+    background-repeat: round;
+    height: 100vh;
+    margin-top: -12.7%;
+}
+
+.lombalal{
+    background-image: url(../img/lombared.png);
+    /* background-position: 100% 100%; */
+    background-repeat: round;
+    height: 120vh;
+    margin-top: -12.7%;
+    margin-left:-5%;
+}
+.lombasobuj{
+    background-image: url(../img/lombagreen.png);
+    /* background-position: 100% 100%; */
+    background-repeat: round;
+    height: 100vh;
+    margin-top: -12.7%;
+    margin-left:-5%;
+}
+#services{
+    background-image:url(../img//Untitled-1.jpg);
+    background-repeat:no-repeat;
+    background-position:50% 50%;
+    background-size:cover;
+}
+.skola{
+    background:url(../img/bishaltiye.png);
+    background-repeat:round;
+    height: 106vh;
+    padding-top: 109px;
+    margin-top: -93px;
+    left: -100px;
+    /*left:-100px;*/
+}
+.skola-details{
+    padding: 130px 100px 20px;
+    text-align:left;
+    color:white;
+    font-size:14px;
+}
+.skola-heading{
+    text-align: left;
+    position: absolute;
+    left: 13%;
+    top: 20%;
+    color: white;
+}
+.skola-compare{
+    text-align:left;
+}
+#contact{
+    background-image:url(../img//Untitled-2.jpg);
+    background-repeat:no-repeat;
+    background-position:50% 50%;
+    background-size:cover;
+}
+
+.co-prace{
+    color:white;
+    text-align:left;
+}
+
+.co-prace p, .profil p{
+    font-size:14px;
+    padding-top: 20px;
+}
+.profil h3{
+    padding-top:20px;
+}
+
+.profil{
+    color:white;
+    text-align:right;
+    padding-top:100px;
+}
+#new{
+    background-image:url(../img/Untitled-3.jpg);
+    background-repeat:no-repeat;
+    background-position:50% 50%;
+    background-size:cover;
+}
+
+.mills ul li {
+    list-style:none;
+    text-align:left;
+}
+.name li {
+     padding:5px 0px;
+     font-size:16px;
+}
+.name-output li{
+    padding:3px 0px;
+    font-size:16px;   
+}
+
+.name-output li{
+    border-bottom:2px dotted gray;
+    margin-left: -30px;
+}
+.name-output li:last-child{
+    border-bottom:none;
+    margin-top:5px;
+}
+.down li{
+    display:inline;
+    list-style:none;
+    padding:20px;
+    text-align:center;
+    margin:0px auto;
+}
+.form-horizontal label{
+    text-align:left;
+}
+.form-horizontal input{
+    border: none;
+    background: transparent;
+    border-bottom: 1px dotted gray;
+    text-align:left;
+}
+.mycheckbox{
+  margin-top:5px;
+    margin-left:5px !important;
+  }
+
+.label-a{
+    background-image:url(../img/gray.png);
+    padding: 10px 30px;
+    margin-top: -10px;
+    background-repeat:round;
+}
+input[type=checkbox] {
+  float: right;
+}
+.label-b{
+    background-image:url(../img/cyan.png);
+    background-repeat:round;
+    padding: 10px 30px;
+    margin-top: -10px;
+}
+.button-n {
+    background-color: #27b5da;
+    color: black;
+    padding: 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.form-group{
+    margin-bottom:5px!important
+}
+.left-col{
+    background-image:url(../img/left-new.png);
+    background-repeat:round;
+}
+.mid-col{
+    background-image:url(../img/new-middle.png);
+    background-repeat:round;
+}
+.right-col{
+    background-image:url(../img/new-right.png);
+    background-repeat:round;
+}
+.mid-header{
+    margin-top:-40px;
+}
+.praco h1{
+    color:#d20237;
+}
+.praco .upper-text{
+    color:white;
+    padding-top:50px;
+    font-size:16px;
+}
+.praco .mid-text{
+     color:white;
+     padding-top: 50px;
+    /*padding-bottom: 40px;*/
+    font-size:16px;
+}
+.praco .second-line{
+    font-size:26px;
+    line-height:1;
+}
+.praco .last-text{
+     font-size:40px;
+     color:white;
+     padding-top:45px;
+     padding-bottom:20px;
+}
+.footer {
+  bottom: 0;
+  width: 100%;
+  /*height: 150px;*/
+  background-color: #111;
+  text-align: center;
+}
+.footer-link{
+     background-image:url(../img/mainMenuBg.png);
+     background-repeat:round;
+     width:60%;
+     padding:30px;
+}
+.footer-link a{
+    padding-left:30px;
+    font-size:20px;
+    color:white;
+    text-decoration:none;
+    padding-top:20px;
+}
+.footer-details{
+    padding-bottom:20px;
+}
+.footer-bottom{
+    padding:30px;
+    background:#fff;
+}
+/*.footer-body{
+    background-image:url(../img/mainMenuBg.png);
+    background-repeat:round;
+}*/
+.intro-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+}
+
+.about-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}
+
+.services-section {
+    height: 100%;
+    padding-top: 100px;
+    text-align: center;
+    background: #fff;
+}
+
+.contact-section {
+    height: 100%;
+    padding-top: 100px;
+    text-align: center;
+    background: #eee;
+}
+.new-section {
+    height: 100%;
+    padding-top: 50px;
+    text-align: center;
+    background: #eee;
+}
+.upper-footer-section {
+    height: 100%;
+    padding-top: 10%;
+    text-align: center;
+    background: white;
+}
+.staci{
+    width: 45%;left:15%;padding-top: 14px;
+}
+.co-pro{
+    width: 55%;float:right;
+}
+.text{
+  margin-left: 60px;
+  overflow: hidden;
+  }
+
+.cust-margin{margin-top:4px;margin-bottom:4px}
+.error-circle{
+    font-size:20px!important;
+}
+.error-msg{
+    color:red;
+    font-size:9px;
+}
+@media screen and (min-width:1920px){
+    .container{
+        width:90%;
+    }
+    .lab-image{
+        height:1000px!important;
+        top:7%!important;
+
+    }
+    #shobuj-page{
+    height: 350px !important;
+    left: -500px !important;
+    padding-top: 90px !important;
+    }
+    #shobuj-page h4{
+        font-size:25px;
+    }
+    #lal-page{
+        height:250px;
+    }
+    .lombalal{
+        margin-top:-8.7%;
+    }
+    .lombasobuj{
+        margin-top:-8.7%;
+    }
+    .lombatiye{
+        margin-top:-8.7%;
+    }
+    .circle{
+        padding:80px!important;
+    }
+    .circle span{
+        font-size:50px;
+    }
+    .f-45{
+        font-size:70px;
+    }
+    .f-30{
+        font-size:45px;
+    }
+    .f-20{
+        font-size:30px;
+    }
+    .obor p {
+        font-size:50px;
+        padding-top:260px;
+    }
+    .skola-details{
+        font-size:25px!important;
+        padding:280px 150px 20px!important;
+    }
+    .skola-heading h1{
+        font-size:50px;
+    }
+    .skola-heading h5{
+        font-size:20px;
+    }
+    .staci{
+        width:45%!important;
+    }
+    .staci h3{
+        font-size:35px;
+    }
+    .co-prace h1{
+        font-size:50px;
+    }
+    .profil{
+        padding-top:300px !important;
+    }
+    .profil h1{
+        font-size:50px;
+    }
+    #contact p {
+        font-size:20px!important;
+    }
+    .profil h3 {
+        font-size:30px;
+    }
+    .profil .row div{
+        font-size:20px;
+    }
+    .co-pro{
+        width:40% !important;
+    }
+    #new p,h5{
+        font-size:20px;
+    }
+    #new h3{
+        font-size:36px;
+    }
+    #new h2{
+        font-size:50px;
+    }
+    .new-section{
+        padding-top:150px;
+    }
+    .form-horizontal{
+        font-size:25px!important;
+    }
+    #upper-footer h1{
+        font-size:50px;
+    }
+    .second-line{
+        font-size:35px!important;
+    }
+   .upper-text{
+        font-size:20px!important;
+    }
+    .mid-text{
+        font-size:20px!important;
+    }
+    .last-text{
+        font-size:50px!important;
+    }
+    .upper-footer-section{
+        padding-top:17%!important;
+    }
+    .footer-link{
+        width:40%!important;
+    }
+    .wtf{
+        width:400px;
+    }
+    .error-circle{
+        font-size:30px!important;
+    }
+    .error-msg{
+        font-size:12px;
+    }
+}
+@media screen and (min-width:1600px){
+    .lab-image{
+        height:859px;
+        top:18%;
+    }
+    .first-row{
+        margin-top:18%;
+    }
+}
+@media screen and (min-width:1440px){
+    .lab-image{
+        height:763px;
+        left:35%;
+    }
+    .first-row{
+        margin-top:12%;
+    }
+    #shobuj-page{
+        height:300px;
+        left:-410px;
+        padding-top:60px;
+    }
+    #shobuj-page h4{
+        font-size:22px;
+    }
+    #shobuj-page span{
+        font-size:16px;
+    }
+    #lal-page{
+        left:-320px;
+    }
+    obor p {
+        font-size:32px;
+    }
+    .circle{
+    margin-top: 105%;
+    margin-left: 27%;
+    padding:60px;
+    }
+    .crrcle > span{
+        font-size:32px;
+    }
+    .co-prace p {
+        font-size:16px;
+    }
+    .profil{
+        padding-top:200px;
+    }
+    .profil p {
+        font-size:16px;
+    }
+    .form-group{
+        margin-bottom:15px!important;
+    }
+    .form-horizontal{
+        font-size:16px;
+    }
+    .upper-footer-section{
+        padding-top:20%;
+    }
+}
+@media screen and (min-width:1368px){
+    #lal-page{
+        width:80%;
+    }
+    .skola-details {
+        padding: 200px 100px 20px;
+        font-size:16px;
+    }
+    .m-wtf{
+    margin-top:-320px;
+    }
+}
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+    
+}
+
+@media screen and (max-width:1201px){
+  
+    .intro-section {
+    height: 105%;
+}
+    .contact-section{
+        height:110%;
+    }
+    .lombalal{
+        margin-top:-15.6%;
+    }
+    .lombasobuj{
+        margin-top:-15.6%;
+    }
+    .lombatiye{
+        margin-top:-15.6%;
+    }
+    .obor p {
+        font-size:24px;
+    }
+    .f-45{
+        font-size:35px;
+    }
+    .f-20{
+        font-size:18px;
+    }
+}
+
+@media screen and (max-width:992px){
+     
+    .obor p {
+        font-size:17px;
+    }
+     .lombalal{
+        margin-top:-20%;
+    }
+    .lombasobuj{
+        margin-top:-20%;
+    }
+    .lombatiye{
+        margin-top:-20%;
+    }
+    .f-45{
+        font-size:25px;
+    }
+    .f-20{
+        font-size:16px;
+    }
+    .circle{
+        margin-left:15%;
+        margin-top:120%;
+    }
+    .circle >span{
+        font-size:30px;
+    }
+    .contact-section{
+        height:initial;
+    }
+    .new-section{
+        height:initial;
+    }
+
+}
+@media screen and (max-width:767px){
+    .navbar-default .navbar-nav>li>a{
+        font-size: 16px !important;
+    padding-top: 0px!important;
+    margin-bottom:5px;
+    }
+    .fhb{
+       margin-bottom:50px;
+    }
+    .navbar-collapse{
+        border-top:none;
+    }
+    .obor p {
+        margin-right:0px;
+    }   
+     #intro{
+    position:relative;
+    }
+     .spadding{
+         padding-left:0px;
+     }
+     #intro:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+     background-image: url(../img/intro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+}
+     .deef{
+         font-size:11px;
+     }
+    .lab-image{
+        display:none;
+    }
+    #lal-page{
+        left:0;
+        width:100%;
+    }
+    #shobuj-page{
+        left:0;
+        width:100%;
+        padding-top:50px;
+        height:270px;
+    }
+    #shobuj-page h4{
+        font-size:16px;
+    }
+    #lal-page h4{
+        font-size:16px;
+    }
+    .port{
+        font-size:12px;
+    }
+    .background-image{
+        left: 30%;
+        margin-top: -50px;
+        
+    }
+    .lombalal{
+        height:initial;
+        margin-top:0;
+    }
+    .lombasobuj{
+        height:initial;
+        margin-top:0;
+        margin-bottom:60px;
+    }
+    .lombatiye{
+        height:initial;
+        margin-top:0;
+    }
+    .circle{
+        margin:5%;
+        margin-left:40px;
+        margin-top:10px;
+        width:0;
+    }
+    .gap{
+        margin-top:10%;
+    }
+    .f-30{
+        font-size:20px;
+        margin-top:10%;
+    }
+    .Odeslat{
+        margin-bottom:20px;
+    }
+    .about-section {
+    height: initial;
+    padding-top: 10px;
+    }
+    .m-wtf{
+    margin-top:0px;
+    }
+    .skola{    
+    height: 106vh;
+    padding-top: 75px;
+    margin-top: -93px;
+    left: 0;
+    /*left:-100px;*/
+}
+.skola-details{
+    padding: 180px 30px 10px 30px;   
+    font-size:12px;
+}
+.contact-section {
+    height: initial;
+    padding-top: 50px;
+
+}
+.profil{
+    margin-bottom:50px;
+}
+.new-section {
+    height: initial;
+    padding-top: 10px;
+}
+.name{
+    display:table-row;
+}
+.name-output{
+    display:table-row;
+}
+.info{
+    display:table-row;
+}
+.sp-circle{
+    margin-left:5px!important;
+}
+.menu-right{
+    background:none;
+    float:left;
+    
+}
+    .upper-footer-section {
+        height: initial;
+    }
+    .mid-header{
+    margin-top:0px;
+}
+    .footer-link{
+        padding:0px;
+        background-image:none;
+    }
+}
+@media screen and (max-width:592px) {
+    .background-image{
+        left: 22%;
+        
+    }
+    .sp-circle{
+    margin-left:10px!important;
+}
+}
+@media screen and (max-width:492px) {
+    .background-image{
+        left: 15%;
+        
+    }
+    .sp-circle{
+    margin-left:15px!important;
+}
+}
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+of those sections to manage the look and feel of the site. */
+
